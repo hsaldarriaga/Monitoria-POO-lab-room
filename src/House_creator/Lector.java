@@ -34,6 +34,7 @@ public class Lector {
     
     public void Leer()
     {
+        //Ejemplo Lectura de txt normal
         File file = new File(main.NombreCasa.getText()+".txt");
         File s_file = new File(main.NombreCasa.getText()+"_sensores.xml");
         if (file.exists()) {
@@ -52,22 +53,23 @@ public class Lector {
             }
             if (br!=null)
                 try {
-                    br.close();
+                    br.close(); // SIEMPRE, cerrar el archivo.
             } catch (IOException ex) {
                 Logger.getLogger(Lector.class.getName()).log(Level.SEVERE, null, ex);
             }
         }
         if (s_file.exists()) {
             try {
+                //Leer un archivo xml
                 DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
                 DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
-                Document doc = dBuilder.parse(s_file);
-                doc.getDocumentElement().normalize();
-                NodeList sensores = doc.getElementsByTagName("Sensor");
+                Document doc = dBuilder.parse(s_file); // s_file seria la ruta del archivo
+                doc.getDocumentElement().normalize(); //hasta aqui igual
+                NodeList sensores = doc.getElementsByTagName("Sensor"); // vector con todas las aparciciones de la etiqueta "Sensor"
                 for (int i = 0; i < sensores.getLength(); i++) {
-                    Node sensor = sensores.item(i);
+                    Node sensor = sensores.item(i); // Se obtiene el primer sensor
                     String ss="";
-                    if (sensor.getNodeType() == Node.ELEMENT_NODE) {
+                    if (sensor.getNodeType() == Node.ELEMENT_NODE) { //Se extraen los datos
                         Element ele = (Element)sensor;
                         ss+=ele.getAttribute("id")+";";
                         ss+=ele.getElementsByTagName("Ubicacion").item(0).getTextContent()+";";
