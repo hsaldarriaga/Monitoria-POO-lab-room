@@ -34,7 +34,7 @@ public class Redactor {
     Redactor (Main main){
         this.main = main;
     }
-    
+    //Esto es para escribir, no es necesario para su proyecto
     public void Asignar() {
         try {
             File file = new File(main.NombreCasa.getText()+".txt");
