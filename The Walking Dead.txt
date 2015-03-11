@@ -1,0 +1,13 @@
+Cocina;Primer Piso;25
+Patio;Primer Piso;100
+Cuarto 2 Camas;Segundo Piso;85
+Baño;Segundo Piso;3
+Cuarto de Huespedes;Primer Piso;4
+Sala de Estudio;Segundo Piso;10
+Sala de Cine;Tercer Piso;20
+Salon de Arte;Primer Piso;225
+Salon de Videojuegos;Cuarto Piso;36
+Cuarto de 4 Piezas;Cuarto Piso;324
+Baño Grande;Cuarto Piso;10
+Cuarto de Rick;Cuarto Piso;5
+Cuarto de Daryl;Segundo Piso;49

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?><Sensores-y-Eventos>
+  <Sensores Size="23">
+    <Sensor id="1">
+      <Ubicacion>Cocina</Ubicacion>
+      <Tipo>Sensor de Gas</Tipo>
+      <Fecha>2014-12-01</Fecha>
+    </Sensor>
+    <Sensor id="2">
+      <Ubicacion>Cocina</Ubicacion>
+      <Tipo>Sensor de Humo</Tipo>
+      <Fecha>2014-12-24</Fecha>
+    </Sensor>
+    <Sensor id="3">
+      <Ubicacion>Patio</Ubicacion>
+      <Tipo>Sensor Medidor De Flujo De Agua</Tipo>
+      <Fecha>2012-06-05</Fecha>
+    </Sensor>
+    <Sensor id="4">
+      <Ubicacion>Cuarto 2 Camas</Ubicacion>
+      <Tipo>Sensor de Puerta Inalámbrica</Tipo>
+      <Fecha>2010-10-30</Fecha>
+    </Sensor>
+    <Sensor id="5">
+      <Ubicacion>Baño</Ubicacion>
+      <Tipo>Sensor de Inundacion</Tipo>
+      <Fecha>2013-05-24</Fecha>
+    </Sensor>
+    <Sensor id="6">
+      <Ubicacion>Cuarto de Huespedes</Ubicacion>
+      <Tipo>Sensor Medidor De Flujo De Agua</Tipo>
+      <Fecha>2011-02-02</Fecha>
+    </Sensor>
+    <Sensor id="7">
+      <Ubicacion>Sala de Estudio</Ubicacion>
+      <Tipo>Sensores de luminosidad</Tipo>
+      <Fecha>2009-11-16</Fecha>
+    </Sensor>
+    <Sensor id="8">
+      <Ubicacion>Sala de Cine</Ubicacion>
+      <Tipo>Sensor de Presencia (PIR)</Tipo>
+      <Fecha>2015-01-01</Fecha>
+    </Sensor>
+    <Sensor id="9">
+      <Ubicacion>Patio</Ubicacion>
+      <Tipo>Sensor Detector De Lluvia</Tipo>
+      <Fecha>2012-12-12</Fecha>
+    </Sensor>
+    <Sensor id="10">
+      <Ubicacion>Salon de Arte</Ubicacion>
+      <Tipo>Sensor de Movimiento Inalámbrico</Tipo>
+      <Fecha>2009-2-19</Fecha>
+    </Sensor>
+    <Sensor id="11">
+      <Ubicacion>Salon de Arte</Ubicacion>
+      <Tipo>Sensor de Humo</Tipo>
+      <Fecha>2005-10-22</Fecha>
+    </Sensor>
+    <Sensor id="12">
+      <Ubicacion>Salon de Arte</Ubicacion>
+      <Tipo>Sensor de Presencia (PIR)</Tipo>
+      <Fecha>2003-9-5</Fecha>
+    </Sensor>
+    <Sensor id="13">
+      <Ubicacion>Salon de Videojuegos</Ubicacion>
+      <Tipo>Perchero Gancho con Camara Espia Oculta y Sensor Sonido</Tipo>
+      <Fecha>1998-6-24</Fecha>
+    </Sensor>
+    <Sensor id="14">
+      <Ubicacion>Salon de Videojuegos</Ubicacion>
+      <Tipo>Sensor Detector De Lluvia</Tipo>
+      <Fecha>2014-4-6</Fecha>
+    </Sensor>
+    <Sensor id="15">
+      <Ubicacion>Cuarto de 4 Piezas</Ubicacion>
+      <Tipo>Sensor de Puerta Inalámbrica</Tipo>
+      <Fecha>2005-12-19</Fecha>
+    </Sensor>
+    <Sensor id="16">
+      <Ubicacion>Baño Grande</Ubicacion>
+      <Tipo>Sensor de Inundacion</Tipo>
+      <Fecha>2011-3-17</Fecha>
+    </Sensor>
+    <Sensor id="17">
+      <Ubicacion>Cuarto de Huespedes</Ubicacion>
+      <Tipo>Sensor de Inundacion</Tipo>
+      <Fecha>2004-5-9</Fecha>
+    </Sensor>
+    <Sensor id="18">
+      <Ubicacion>Cuarto de Rick</Ubicacion>
+      <Tipo>Sensor de Presencia (PIR)</Tipo>
+      <Fecha>2003-12-23</Fecha>
+    </Sensor>
+    <Sensor id="19">
+      <Ubicacion>Cuarto de Rick</Ubicacion>
+      <Tipo>Sensor de Presencia (PIR)</Tipo>
+      <Fecha>1999-10-12</Fecha>
+    </Sensor>
+    <Sensor id="20">
+      <Ubicacion>Cuarto de Rick</Ubicacion>
+      <Tipo>Sensor de Presencia (PIR)</Tipo>
+      <Fecha>2001-12-14</Fecha>
+    </Sensor>
+    <Sensor id="21">
+      <Ubicacion>Cuarto de Daryl</Ubicacion>
+      <Tipo>Sensor de Humo</Tipo>
+      <Fecha>2010-9-12</Fecha>
+    </Sensor>
+    <Sensor id="22">
+      <Ubicacion>Cuarto de Daryl</Ubicacion>
+      <Tipo>Sensor de Movimiento Inalámbrico</Tipo>
+      <Fecha>2003-7-1</Fecha>
+    </Sensor>
+    <Sensor id="23">
+      <Ubicacion>Cuarto de Daryl</Ubicacion>
+      <Tipo>Perchero Gancho con Camara Espia Oculta y Sensor Sonido</Tipo>
+      <Fecha>2005-5-28</Fecha>
+    </Sensor>
+  </Sensores>
+  <Eventos Size="14">
+    <Evento nombre="Posible Hipotermia">
+      <Tipo-Sensor>Sensor de Temperatura y Humedad</Tipo-Sensor>
+      <Valor>-5</Valor>
+      <Unidad-de-Medida>C</Unidad-de-Medida>
+    </Evento>
+    <Evento nombre="Posible Incendio">
+      <Tipo-Sensor>Sensor de Gas</Tipo-Sensor>
+      <Valor>900</Valor>
+      <Unidad-de-Medida>ppm</Unidad-de-Medida>
+    </Evento>
+    <Evento nombre="Posible Incendio">
+      <Tipo-Sensor>Sensor de Humo</Tipo-Sensor>
+      <Valor>100</Valor>
+      <Unidad-de-Medida>kWh</Unidad-de-Medida>
+    </Evento>
+    <Evento nombre="Gasto en Exceso">
+      <Tipo-Sensor>Sensor Medidor De Flujo De Agua</Tipo-Sensor>
+      <Valor>15</Valor>
+      <Unidad-de-Medida>m3/s</Unidad-de-Medida>
+    </Evento>
+    <Evento nombre="Intruso Detectado">
+      <Tipo-Sensor>Sensor de Puerta Inalámbrica</Tipo-Sensor>
+      <Valor>0.4</Valor>
+      <Unidad-de-Medida>m/s</Unidad-de-Medida>
+    </Evento>
+    <Evento nombre="Alerta de Incendio">
+      <Tipo-Sensor>Sensor de Temperatura y Humedad</Tipo-Sensor>
+      <Valor>70</Valor>
+      <Unidad-de-Medida>C</Unidad-de-Medida>
+    </Evento>
+    <Evento nombre="Nivel de agua elevado">
+      <Tipo-Sensor>Sensor de Inundacion</Tipo-Sensor>
+      <Valor>15</Valor>
+      <Unidad-de-Medida>cm</Unidad-de-Medida>
+    </Evento>
+    <Evento nombre="Desperdicio de Energía">
+      <Tipo-Sensor>Sensores de luminosidad</Tipo-Sensor>
+      <Valor>5</Valor>
+      <Unidad-de-Medida>h</Unidad-de-Medida>
+    </Evento>
+    <Evento nombre="Intruso Detectado">
+      <Tipo-Sensor>Sensor de Presencia (PIR)</Tipo-Sensor>
+      <Valor>2500</Valor>
+      <Unidad-de-Medida>nm</Unidad-de-Medida>
+    </Evento>
+    <Evento nombre="Posible Roedor alrededor">
+      <Tipo-Sensor>Sensor de Movimiento Inalámbrico</Tipo-Sensor>
+      <Valor>2</Valor>
+      <Unidad-de-Medida>m/s</Unidad-de-Medida>
+    </Evento>
+    <Evento nombre="Sonido Sospechoso">
+      <Tipo-Sensor>Perchero Gancho con Camara Espia Oculta y Sensor Sonido</Tipo-Sensor>
+      <Valor>60</Valor>
+      <Unidad-de-Medida>dB</Unidad-de-Medida>
+    </Evento>
+    <Evento nombre="Emergencia Inmediata">
+      <Tipo-Sensor>Perchero Gancho con Camara Espia Oculta y Sensor Sonido</Tipo-Sensor>
+      <Valor>140</Valor>
+      <Unidad-de-Medida>dB</Unidad-de-Medida>
+    </Evento>
+    <Evento nombre="No hay Agua">
+      <Tipo-Sensor>Sensor Medidor De Flujo De Agua</Tipo-Sensor>
+      <Valor>0</Valor>
+      <Unidad-de-Medida>m3/s</Unidad-de-Medida>
+    </Evento>
+    <Evento nombre="Lluvia muy Intensa">
+      <Tipo-Sensor>Sensor Detector De Lluvia</Tipo-Sensor>
+      <Valor>100</Valor>
+      <Unidad-de-Medida>mm</Unidad-de-Medida>
+    </Evento>
+  </Eventos>
+</Sensores-y-Eventos>
