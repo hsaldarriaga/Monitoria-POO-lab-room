@@ -119,72 +119,72 @@
   <Eventos Size="14">
     <Evento nombre="Posible Hipotermia">
       <Tipo-Sensor>Sensor de Temperatura y Humedad</Tipo-Sensor>
-      <Valor>-5</Valor>
+      <Valor>-5:menor</Valor>
       <Unidad-de-Medida>C</Unidad-de-Medida>
     </Evento>
     <Evento nombre="Posible Incendio">
       <Tipo-Sensor>Sensor de Gas</Tipo-Sensor>
-      <Valor>900</Valor>
+      <Valor>900:mayor</Valor>
       <Unidad-de-Medida>ppm</Unidad-de-Medida>
     </Evento>
     <Evento nombre="Posible Incendio">
       <Tipo-Sensor>Sensor de Humo</Tipo-Sensor>
-      <Valor>100</Valor>
+      <Valor>100:mayor</Valor>
       <Unidad-de-Medida>kWh</Unidad-de-Medida>
     </Evento>
     <Evento nombre="Gasto en Exceso">
       <Tipo-Sensor>Sensor Medidor De Flujo De Agua</Tipo-Sensor>
-      <Valor>15</Valor>
+      <Valor>15:mayor</Valor>
       <Unidad-de-Medida>m3/s</Unidad-de-Medida>
     </Evento>
     <Evento nombre="Intruso Detectado">
       <Tipo-Sensor>Sensor de Puerta Inalámbrica</Tipo-Sensor>
-      <Valor>0.4</Valor>
+      <Valor>0.4:mayor</Valor>
       <Unidad-de-Medida>m/s</Unidad-de-Medida>
     </Evento>
     <Evento nombre="Alerta de Incendio">
       <Tipo-Sensor>Sensor de Temperatura y Humedad</Tipo-Sensor>
-      <Valor>70</Valor>
+      <Valor>70:mayor</Valor>
       <Unidad-de-Medida>C</Unidad-de-Medida>
     </Evento>
     <Evento nombre="Nivel de agua elevado">
       <Tipo-Sensor>Sensor de Inundacion</Tipo-Sensor>
-      <Valor>15</Valor>
+      <Valor>15:mayor</Valor>
       <Unidad-de-Medida>cm</Unidad-de-Medida>
     </Evento>
     <Evento nombre="Desperdicio de Energía">
       <Tipo-Sensor>Sensores de luminosidad</Tipo-Sensor>
-      <Valor>5</Valor>
+      <Valor>5:mayor</Valor>
       <Unidad-de-Medida>h</Unidad-de-Medida>
     </Evento>
     <Evento nombre="Intruso Detectado">
       <Tipo-Sensor>Sensor de Presencia (PIR)</Tipo-Sensor>
-      <Valor>2500</Valor>
+      <Valor>2500:mayor</Valor>
       <Unidad-de-Medida>nm</Unidad-de-Medida>
     </Evento>
     <Evento nombre="Posible Roedor alrededor">
       <Tipo-Sensor>Sensor de Movimiento Inalámbrico</Tipo-Sensor>
-      <Valor>2</Valor>
+      <Valor>2:mayor</Valor>
       <Unidad-de-Medida>m/s</Unidad-de-Medida>
     </Evento>
     <Evento nombre="Sonido Sospechoso">
       <Tipo-Sensor>Perchero Gancho con Camara Espia Oculta y Sensor Sonido</Tipo-Sensor>
-      <Valor>60</Valor>
+      <Valor>60:mayor</Valor>
       <Unidad-de-Medida>dB</Unidad-de-Medida>
     </Evento>
     <Evento nombre="Emergencia Inmediata">
       <Tipo-Sensor>Perchero Gancho con Camara Espia Oculta y Sensor Sonido</Tipo-Sensor>
-      <Valor>140</Valor>
+      <Valor>140:mayor</Valor>
       <Unidad-de-Medida>dB</Unidad-de-Medida>
     </Evento>
     <Evento nombre="No hay Agua">
       <Tipo-Sensor>Sensor Medidor De Flujo De Agua</Tipo-Sensor>
-      <Valor>0</Valor>
+      <Valor>0:menor</Valor>
       <Unidad-de-Medida>m3/s</Unidad-de-Medida>
     </Evento>
     <Evento nombre="Lluvia muy Intensa">
       <Tipo-Sensor>Sensor Detector De Lluvia</Tipo-Sensor>
-      <Valor>100</Valor>
+      <Valor>100:mayor</Valor>
       <Unidad-de-Medida>mm</Unidad-de-Medida>
     </Evento>
   </Eventos>
