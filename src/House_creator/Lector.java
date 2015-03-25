@@ -44,7 +44,7 @@ public class Lector {
                 String line="";
                 while ((line = br.readLine()) != null) 
                 {
-                    main.Habitaciones.addElement(line);
+                    main.Habitaciones.addElement(line); //esto cambia segun su implementacion
                 }
             } catch (FileNotFoundException ex) {
                 Logger.getLogger(Lector.class.getName()).log(Level.SEVERE, null, ex);
@@ -64,11 +64,11 @@ public class Lector {
                 DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
                 DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
                 Document doc = dBuilder.parse(s_file); // s_file seria la ruta del archivo
-                doc.getDocumentElement().normalize(); //hasta aqui igual
+                doc.getDocumentElement().normalize();
                 NodeList sensores = doc.getElementsByTagName("Sensor"); // vector con todas las aparciciones de la etiqueta "Sensor"
                 for (int i = 0; i < sensores.getLength(); i++) {
                     Node sensor = sensores.item(i); // Se obtiene el primer sensor
-                    String ss="";
+                    String ss=""; //Los datos se juntan en un solo string seguido de ;, esto cambia en su implementación
                     if (sensor.getNodeType() == Node.ELEMENT_NODE) { //Se extraen los datos
                         Element ele = (Element)sensor;
                         ss+=ele.getAttribute("id")+";";
@@ -76,12 +76,12 @@ public class Lector {
                         ss+=ele.getElementsByTagName("Tipo").item(0).getTextContent()+";";
                         ss+=ele.getElementsByTagName("Fecha").item(0).getTextContent();
                     }
-                    main.Sensores.addElement(ss);
+                    main.Sensores.addElement(ss); //esto cambia segun su implementacion
                 }
                 NodeList eventos = doc.getElementsByTagName("Evento");
                 for (int i = 0; i < eventos.getLength(); i++) {
                     Node evento = eventos.item(i);
-                    String ss="";
+                    String ss=""; //Los datos se juntan en un solo string seguido de ;, esto cambia en su implementación
                     if (evento.getNodeType() == Node.ELEMENT_NODE) {
                         Element ele = (Element)evento;
                         ss+=ele.getAttribute("nombre")+";";
@@ -89,7 +89,7 @@ public class Lector {
                         ss+=ele.getElementsByTagName("Valor").item(0).getTextContent()+";";
                         ss+=ele.getElementsByTagName("Unidad-de-Medida").item(0).getTextContent();
                     }
-                    main.Eventos.addElement(ss);
+                    main.Eventos.addElement(ss); //esto cambia segun su implementacion
                 }
             } catch (ParserConfigurationException ex) {
                 Logger.getLogger(Lector.class.getName()).log(Level.SEVERE, null, ex);
